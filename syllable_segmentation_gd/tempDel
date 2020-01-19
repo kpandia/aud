@@ -1,0 +1,3 @@
+gcc -g -c -Wall   -o ./obj/SyllableBoundaries1.o ./src/SyllableBoundaries1.c -I./nist/include/ -I./front-end-dsp/src
+gcc -g -o ./bin/SyllableBoundaries1 -I./front-end-dsp/src -I./nist/include/ -L./nist/lib/ ./obj/CommonFunctions.o ./obj/SyllableBoundaries1.o ./obj/DspLibrary.o ./obj/SphereInterface.o ./obj/BatchProcessWaveform.o ./obj/InitAsdf.o ./obj/PthLibrary.o ./obj/FmtsLibrary.o ./obj/FeatureMappingToFunctions.o ./obj/HashTable.o ./obj/QuickSort.o ./obj/GMM.o ./obj/VQ.o -lsp -lutil -lm
+

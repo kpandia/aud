@@ -1,0 +1,8 @@
+
+Compile NIST libraries
+cd nist
+bash src/scripts/install.sh
+cd -
+
+Compile the segmentation source
+make
