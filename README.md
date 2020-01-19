@@ -1,4 +1,4 @@
-# Acustic Unit Discovey Using HMMs
+# Transient and steady-state acoustic unit discovery
 
 
 ## Steps for AUD:
